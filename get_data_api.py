@@ -20,6 +20,8 @@ users_list = []
 
 for cep in cep_list:
     new_cep = get_user(cep.replace("-", ""))
+    if "erro" in new_cep:
+        continue
     users_list.append(new_cep)
     print(new_cep)
 

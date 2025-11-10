@@ -1,0 +1,29 @@
+cep,logradouro,complemento,unidade,bairro,localidade,uf,estado,regiao,ibge,gia,ddd,siafi
+01001-000,Praça da Sé,lado ímpar,,Sé,São Paulo,SP,São Paulo,Sudeste,3550308,1004,11,7107
+20040-001,Avenida Rio Branco,de 102 a 126 - lado par,,Centro,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,3304557,,21,6001
+30130-002,Avenida Afonso Pena,de 655 a 1535 - lado ímpar,,Centro,Belo Horizonte,MG,Minas Gerais,Sudeste,3106200,,31,4123
+01310-100,Avenida Paulista,de 612 a 1510 - lado par,,Bela Vista,São Paulo,SP,São Paulo,Sudeste,3550308,1004,11,7107
+22290-000,Rua Fernandes Guimarães,,,Botafogo,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,3304557,,21,6001
+31110-200,Rua Caputira,,,Colégio Batista,Belo Horizonte,MG,Minas Gerais,Sudeste,3106200,,31,4123
+81010-300,Rua Guatemala,,,Guaíra,Curitiba,PR,Paraná,Sul,4106902,,41,7535
+60170-900,Avenida Desembargador Moreira,2807,Assembléia Legislativa do Estado do Ceará,Dionisio Torres,Fortaleza,CE,Ceará,Nordeste,2304400,,85,1389
+02030-010,Rua Eudoro Lemos,,,Santana,São Paulo,SP,São Paulo,Sudeste,3550308,1004,11,7107
+20550-020,Rua Pereira de Siqueira,,,Tijuca,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,3304557,,21,6001
+30510-030,Rua da Saudade,,,Guaratã,Belo Horizonte,MG,Minas Gerais,Sudeste,3106200,,31,4123
+82030-040,Rua Aureliano Azevedo da Silveira,,,São João,Curitiba,PR,Paraná,Sul,4106902,,41,7535
+93010-050,Rua João Neves da Fontoura,até 1338/1339,,Centro,São Leopoldo,RS,Rio Grande do Sul,Sul,4318705,,51,8877
+69070-090,Beco Inocêncio de Araújo,,,Educandos,Manaus,AM,Amazonas,Norte,1302603,,92,0255
+21040-120,Praça Eloi de Andrade,,,Ramos,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,3304557,,21,6001
+32010-130,Rua Cristiano Franca Teixeira Guimarães,,,Cinco,Contagem,MG,Minas Gerais,Sudeste,3118601,,31,4371
+83005-140,Praça Alice Sperling da Cruz,,,Centro,São José dos Pinhais,PR,Paraná,Sul,4125506,,41,7885
+94010-150,Rua Ernesto Fonseca,,,Centro,Gravataí,RS,Rio Grande do Sul,Sul,4309209,,51,8683
+74015-160,Praça Marechal Inácio Joaquim Baptista Cardoso,,,Setor Central,Goiânia,GO,Goiás,Centro-Oeste,5208707,,62,9373
+42700-170,Avenida Santos Dumont,,,Recreio Ipitanga,Lauro de Freitas,BA,Bahia,Nordeste,2919207,,71,3685
+53030-180,Praça Coronel Cornélio Padilha,,,Bairro Novo,Olinda,PE,Pernambuco,Nordeste,2609600,,81,2491
+69090-190,Rua Itaciara,,,Cidade Nova,Manaus,AM,Amazonas,Norte,1302603,,92,0255
+61900-200,Rua Edson Queiroz,,,Centro,Maracanaú,CE,Ceará,Nordeste,2307650,,85,1585
+23052-220,Rua Manaí,,,Campo Grande,Rio de Janeiro,RJ,Rio de Janeiro,Sudeste,3304557,,21,6001
+84010-240,Rua Doutor Penteado de Almeida,,,Centro,Ponta Grossa,PR,Paraná,Sul,4119905,,42,7777
+95010-250,Rua do Rosário,de 2 ao fim - lado par,,Medianeira,Caxias do Sul,RS,Rio Grande do Sul,Sul,4305108,,54,8599
+54330-280,Rua São Vicente,,,Cajueiro Seco,Jaboatão dos Guararapes,PE,Pernambuco,Nordeste,2607901,,81,2457
+62900-300,Rua Agostinho Maciel da Cunha,,,Vila Gonçalves,Russas,CE,Ceará,Nordeste,2311801,,88,1537
