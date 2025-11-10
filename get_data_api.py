@@ -10,4 +10,14 @@ def get_user(cep):
 
     return user_info
 
+users_path = "bronze_raw/users.csv"
+users = pd.read_csv(users_path)
 
+cep_list = users["cep"].tolist()
+
+print(cep_list)
+
+"""
+_users = pd.DataFrame(users)
+print(df_users.head())
+"""
