@@ -4,18 +4,18 @@ import psycopg2
 
 class DB:
     def __init__(self, host, port, database, user, password):
-            self.database=database,
-            self.user=user,
-            self.password=password,
-            self.host=host,
+            self.host=host
             self.port=port
+            self.database=database
+            self.user=user
+            self.password=password
 
             self.conn = psycopg2.connect(
-                host=self.database,
-                port=self.database,
+                host=self.host,
+                port=self.port,
                 database=self.database,
-                user=self.database,
-                password=self.database
+                user=self.user,
+                password=self.password
             )
     
     def create_table(self, table_name, df):
@@ -32,15 +32,13 @@ class DB:
         insert_query = f"INSERT INTO {table_name} ({cols}) VALUES ({values_placeholder});"
         
         with self.conn.cursor() as cursor:
-            for _, row in df.iterrows():
+            for idx, row in df.iterrows():
                 cursor.execute(insert_query, tuple(row))
             self.conn.commit()
 
 if __name__ == "__main__":
-    # Example usage
-    db = DB(host='localhost', port=5433, database='postgres', user='postgres', password='postgres')
+    db = DB(host='localhost', port=5432, database='postgres', user='postgres', password='postgres')
     
-    # Sample DataFrame
     data = {
         'name': ['Alice', 'Bob', 'Charlie'],
         'age': ['25', '30', '35'],
