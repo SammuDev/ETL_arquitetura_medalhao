@@ -35,3 +35,20 @@ class DB:
             for _, row in df.iterrows():
                 cursor.execute(insert_query, tuple(row))
             self.conn.commit()
+
+if __name__ == "__main__":
+    # Example usage
+    db = DB(host='localhost', port=5433, database='postgres', user='postgres', password='postgres')
+    
+    # Sample DataFrame
+    data = {
+        'name': ['Alice', 'Bob', 'Charlie'],
+        'age': ['25', '30', '35'],
+        'city': ['New York', 'Los Angeles', 'Chicago']
+    }
+    df = pd.DataFrame(data)
+    
+    table_name = 'people'
+    
+    db.create_table(table_name, df)
+    db.insert_data(table_name, df)
