@@ -1,8 +1,4 @@
 SELECT *
-FROM products;
-
-SELECT *
-FROM users;
-
-SELECT *
-FROM users_info;
+FROM users
+INNER JOIN users_info
+ON users.cep = users_info.cep;
