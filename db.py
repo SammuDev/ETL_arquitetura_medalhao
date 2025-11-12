@@ -31,7 +31,7 @@ class DB:
         insert_query = f"INSERT INTO {table_name} ({cols}) VALUES ({values_placeholder});"
         
         with self.conn.cursor() as cursor:
-            for idx, row in df.iterrows():
+            for _, row in df.iterrows():
                 values = [str(v) if v is not None else None for v in row.values]
                 cursor.execute(insert_query, values)
             self.conn.commit()
