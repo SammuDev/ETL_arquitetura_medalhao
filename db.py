@@ -1,4 +1,3 @@
-import os
 import pandas as pd
 import psycopg2
 
@@ -33,20 +32,6 @@ class DB:
         
         with self.conn.cursor() as cursor:
             for idx, row in df.iterrows():
-                cursor.execute(insert_query, tuple(row))
+                values = [str(v) if v is not None else None for v in row.values]
+                cursor.execute(insert_query, values)
             self.conn.commit()
-
-if __name__ == "__main__":
-    db = DB(host='localhost', port=5432, database='postgres', user='postgres', password='postgres')
-    
-    data = {
-        'name': ['Alice', 'Bob', 'Charlie'],
-        'age': ['25', '30', '35'],
-        'city': ['New York', 'Los Angeles', 'Chicago']
-    }
-    df = pd.DataFrame(data)
-    
-    table_name = 'people'
-    
-    db.create_table(table_name, df)
-    db.insert_data(table_name, df)
