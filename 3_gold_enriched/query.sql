@@ -1,6 +1,7 @@
 SELECT
     users.id,
     users.nome,
+    users.data_nascimento,
     users.email,
     users.telefone,
     users_info.logradouro,
