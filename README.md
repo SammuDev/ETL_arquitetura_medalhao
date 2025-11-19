@@ -27,14 +27,21 @@
 ## Stacks do projeto
 
 ⇛ Python (para o pipeline ETL)
+
 ⇛ Docker / Docker Compose (Containerização)
+
 ⇛ PostgreSQL (Banco de Dados)
+
 ⇛ SQL (Consultas e Análises)
+
 ⇛ Jupyter Notebook / Matplotlib (Visualização)
 
 - **Skills**
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+
 [![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)](#)
+
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
+
 [![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)](#)
