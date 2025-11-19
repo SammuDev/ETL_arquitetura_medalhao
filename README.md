@@ -36,7 +36,7 @@
 
 ⇛ Jupyter Notebook / Matplotlib (Visualização)
 
-- **Skills**
+## Skills
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
 
